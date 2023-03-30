@@ -1,0 +1,34 @@
+aside{
+  padding: 3.2rem 3.5rem 3.2rem 2.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  min-height: 100vh;
+}
+
+aside #logo {
+  width: 5rem;
+  height: 5.6rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  color: #FFFFFF;
+}
+
+nav a.active {
+  font-weight: 700;
+}
+
+nav a svg {
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2.4rem;
+}
+
+.board-name {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.board-name h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 130%;
+  color: #403937;
+}
+
+.board-name svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #C7C7CD;
+  cursor: pointer;
+}

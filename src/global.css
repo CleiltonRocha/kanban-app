@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smootyhing: grayscale;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #7C3AED;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 17.5rem 1fr;
+}
+

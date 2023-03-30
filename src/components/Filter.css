@@ -1,0 +1,69 @@
+.filter{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  width: 100%;
+  padding: 0rem 2.4rem;
+}
+
+button {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  text-shadow: 0rem 0.4rem 1.6rem rgba(22, 22, 22, 0.1);
+  color: #ffff;
+  font-size: 1.4rem;
+
+  background: #7C3AED;
+  border-radius: 0.5rem;
+  padding: 1.2rem 3.2rem;
+  cursor: pointer;
+  transition: background-color .4s ease-in-out;
+}
+
+button:hover{
+ background-color: #5921b9;
+}
+
+button svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.input-wrapper{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #FFFFFF;
+  border: 0.07rem solid #E3E3E3;
+  box-shadow: 0rem 0.4rem 1.6rem rgba(22, 22, 22, 0.1);
+  border-radius: 0.8rem;
+  padding: 1.6rem;
+
+}
+
+.input-wrapper svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #505059;
+}
+
+.input-wrapper input {
+  width: 100%;
+  border: none;
+}
+
+.input-wrapper input:placeholder {
+  color: #7C7C8A;
+}
+
+.input-wrapper input:focus{
+  outline: none;
+}
+
+.input-wrapper:focus-within {
+  border-color: #7C3AED;
+}
