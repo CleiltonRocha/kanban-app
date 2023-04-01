@@ -3,6 +3,7 @@ import './global.css';
 import './App.css';
 import { Header } from './components/Header';
 import { Filter } from './components/Filter';
+import { WorkFlow } from './components/WorkFlow';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="container">
         <Header />
         <Filter />
+        <WorkFlow />
       </div>
     </div>
   )

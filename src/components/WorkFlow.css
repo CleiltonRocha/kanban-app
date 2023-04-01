@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 2.4rem;
+}
+
+.to-do, .doing, .done {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  max-width: 36.833rem;
+}
+
+.to-do h2, .doing h2,  .done  h2{
+  font-weight: 700;
+  font-size: 2rem;
+  color: #403937;
+}
+
+

@@ -14,18 +14,27 @@ aside #logo {
 nav {
   display: flex;
   flex-direction: column;
-  gap: 3.6rem;
+  gap: 2.4rem;
 }
 
 nav a {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: .8rem;
   color: #FFFFFF;
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 999rem;
+  transition: .4s ease-in-out;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255,.2);
 }
 
 nav a.active {
   font-weight: 700;
+  background-color: rgba(255, 255, 255,.2);
 }
 
 nav a svg {
